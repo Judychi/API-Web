@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.displaycontainer{
+    width: 23%;
+    height: 55%;
+    background-color: rgba(200, 199, 199, 0.806);
+    margin: 5%  auto;
+    padding: 3px;
+    border-radius: 3px;
+    align-content: center;
+}
+
+.input1{
+    width: 95%;
+    height: 15%;
+}
+
+.input1{ 
+    background-color: rgba(200, 199, 199, 0.806);
+    border: none;
+    outline: none;
+    text-align: right;
+    font-size: 22px;
+    padding: 6px;
+    color: rgba(135, 255, 181);
+    text-shadow: 2px 2px 5px black;
+}
+
+.output{
+    width: 97%;
+    height: 12%;
+}
+.output{
+    background-image: linear-gradient(rgba(169, 245, 235), rgba(135, 255, 181));
+    border-radius: 5px;
+    text-align: right;
+    font-size: 22px;
+    padding-right: 6px;
+}
+
+.container input::-webkit-inner-spin-button, input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.content{
+    width: 100%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 10px;
+}
+
+.content div{
+    width: 52px;
+    height: 53px;
+}
+
+.content button{
+    width: 100%;
+    height: 100%;
+    font-size: 23px;
+    color: rgb(81, 79, 79);
+    border-radius: 6px;
+    border: none;
+    box-shadow: 1px 1px 1px gray;
+    background-color: rgba(243, 243, 243, 0.806);
+}
+
+.red button{
+    background-color: rgb(249, 107, 55);
+}
+
+.blue button{
+    background-image: linear-gradient(45deg, rgb(86, 153, 225), rgb(190, 226, 255));
+}
+
+.btn5 button{
+    background-color: rgb(28, 228, 228);
+}
